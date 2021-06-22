@@ -36,9 +36,9 @@ The image is clarified by: ```J(x)=(I(x)- A)/max(t(x), t0)+A```
 
 Where `J(x)` is output, `I(x)` is input, `t(x)` is transmission map, `A` is atmospheric light and `t0` is set to a constant value to avoid dividing by zero.
 
-#### Usage:
+## Usage:
 Currently, the user has to specify the input image and output image path in a main() function. Next update will use console arguments to specify the image path. Feel free to add new things to the code and pull a merge request.
 
-#### Dependencies
+## Dependencies
 cv2
 numpy
